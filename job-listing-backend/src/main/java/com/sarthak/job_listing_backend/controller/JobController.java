@@ -18,7 +18,7 @@ import com.sarthak.job_listing_backend.service.JobService;
 
 @RestController
 @RequestMapping("/jobs")
-@CrossOrigin(origins = "http://localhost:5173"
+@CrossOrigin(origins = "*"
     
 )
 public class JobController {
